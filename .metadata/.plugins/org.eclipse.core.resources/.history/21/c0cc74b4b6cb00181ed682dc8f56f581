@@ -1,0 +1,53 @@
+package com.capgemini.product.service.impl;
+
+import java.util.List;
+
+import com.capgemini.product.entity.Product;
+import com.capgemini.product.exception.ProductNotFoundException;
+import com.capgemini.product.service.ProductService;
+
+public class ProductServiceImpl implements ProductService{
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product updateProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product findProductById(int productId) throws ProductNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteProduct(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Product> findProductByName(String productName) throws ProductNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findProductByCategory(String productCategory) throws ProductNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findProductByCategoryAndPrice(String productCategory, double max, double min) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

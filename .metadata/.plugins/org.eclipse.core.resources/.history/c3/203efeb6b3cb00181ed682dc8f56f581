@@ -1,0 +1,5 @@
+package com.capgemini.product.entity;
+
+public class Product {
+
+}

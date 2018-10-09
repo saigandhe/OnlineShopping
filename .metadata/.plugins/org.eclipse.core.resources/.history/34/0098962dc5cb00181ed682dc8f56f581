@@ -1,0 +1,18 @@
+package com.capgemini.order.entity;
+
+import java.sql.Date;
+
+import javax.persistence.Table;
+
+import org.springframework.data.annotation.Id;
+
+@Table(name = "ordertable")
+public class Order {
+	
+	@Id
+	private int orderId;
+	private float ordersTotal;
+	private Date date;
+	
+
+}
